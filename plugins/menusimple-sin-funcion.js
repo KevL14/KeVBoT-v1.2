@@ -19,7 +19,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     let username = conn.getName(who)
     let str = `
 ╭══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╮
-║═ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨
+║═ KeVBoT-v1.2
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║❇️ *¡𝗛ola! ${username}* ❇️
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
@@ -268,7 +268,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠👑 _${usedPrefix}bcbot *texto*_
 ┣ ↠💎 _${usedPrefix}bcgc *texto*_
 ┗━━━━━━━━━━━━━━━━━━┛
-`.trim()
+KeVBoT-v1.2 `.trim()
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
   }
