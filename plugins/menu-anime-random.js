@@ -74,7 +74,7 @@ let menu =`
  ‖⇛ 🪅 _${usedPrefix}experiencia | exp_
  ‖ ➥ ⧼ *_MENÚ ANIME/RANDOM_* ⧽  
 ╰━〘  ☆ ☆ ☆ ☆ ☆ ☆ ☆ 〙━╯
-𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()
+KeVBoT-v1.2`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
 ⁖ᯓ፨҈༺ KeVBoT-v1.2༻፨҈ᯓ⁖
 `.trim(), menu, '🔞 𝙈𝙀𝙉𝙐 +18 🔞', `#labiblia`, '🔊 𝙈𝙀𝙉𝙐 𝘿𝙀 𝘼𝙐𝘿𝙄𝙊𝙎 🔊', `#menuaudio`, '📦 𝙈𝙀𝙉𝙐 𝘾𝘼𝙅𝘼 𝘼𝙇𝙈𝘼𝘾𝙀𝙉 📦', `#menucaja`, m, false, { contextInfo: { mentionedJid }})}
