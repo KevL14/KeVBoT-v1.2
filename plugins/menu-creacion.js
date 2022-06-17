@@ -57,7 +57,7 @@ let menu =`
  ‖⇛ 🎨 _${usedPrefix}tovn *audio a nota de voz*
  ‖ ➥ ⧼ *_MENÚ DE CREACIÓN_* ⧽ 
 ╰━〘 ☆ ☆ ☆ ☆ ☆ ☆ ☆ 〙━╯
-𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()
+KeVBoT-v1.2`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
 ⁖ᯓ፨҈༺ KeVBoT-v1.2 ༻፨҈ᯓ⁖
 `.trim(), menu, '💥 𝘼𝙉𝙄𝙈𝙀/𝙍𝘼𝙉𝘿𝙊𝙈 💥', `#menurandom`, '🔞 𝙈𝙀𝙉𝙐 +18 🔞', `#labiblia`, '🔊 𝙈𝙀𝙉𝙐 𝘿𝙀 𝘼𝙐𝘿𝙄𝙊𝙎 🔊', `#menuaudio`, m, false, { contextInfo: { mentionedJid }})}
