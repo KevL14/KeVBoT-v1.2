@@ -1,4 +1,4 @@
-# 𝙂𝙖𝙩𝙖𝘽𝙤𝙩
+# 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 and KeVBoT
 
 <p align="center"> 
 <img src="https://i.pinimg.com/originals/67/40/8a/67408ab5444616b71968475001f18e88.gif" alt="gif" width="500" height="279"/> 
@@ -59,8 +59,8 @@
 > apt install nodejs -y
 > apt install ffmpeg -y
 > apt install imagemagick -y
-> git clone https://github.com/GataNina-Li/GataBotV2
-> cd GataBotV2
+> git clone https://github.com/KevL14/KeVBot-v1.2.git
+> cd KeVBot-v1.2.git
 > ls
 > npm install
 > npm install -g npm@8.11.0
@@ -82,7 +82,7 @@ en el archivo config.js del BOT:  #on restrict
 > ❇️ Para activar la lectura automática de mensajes escriba: #on autoread
 
 > ❇️ En caso que se cierre la sesión de Termux, escriba:
-> cd GataBot
+> cd KeVBot-v1.2.git
 > npm start
 
 > ❇️ Si necesita obtener un nuevo Código QR, escriba en Termux:
