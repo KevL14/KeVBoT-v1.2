@@ -59,9 +59,9 @@ let menu =`
  ‖⇶ _${usedPrefix}cuentasgatabot | cuentasgb_
  ‖
 ╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
-KeVBoT-v1.2.trim()
+KeVBoT-v1.2`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(kai)).buffer(), `
-⁖ᯓ፨҈༺ KeVBoT-v1 ༻፨҈ᯓ⁖
+⁖ᯓ፨҈༺ KeVBoT-v1.2 ༻፨҈ᯓ⁖
 `.trim(), menu, 'Ⓜ️ 𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 Ⓜ️', `#mcompleto`, '🔖 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊𝙉 𝘿𝙀𝙇 𝙈𝙀𝙉𝙐 🔖', `#menuinfobot`, '🎮 𝙈𝙀𝙉𝙐 𝘿𝙀 𝙅𝙐𝙀𝙂𝙊𝙎 🎮', `#menujuego`, m, false, { contextInfo: { mentionedJid }})
  await await await await await await conn.sendFile(m.chat, vn, 'menugatabot.mp3', null, m, true, {
 type: 'audioMessage', 
