@@ -409,7 +409,7 @@ let menu =`
 ┗━━━━━━━━━━━━━━━━━━┛
 KeVBoT-v1.2`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
-⁖ᯓ፨҈༺ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ༻፨҈ᯓ⁖
+⁖ᯓ፨҈༺ KeVBoT-v1.2 ༻፨҈ᯓ⁖
 `.trim(), menu, '😸 𝙃𝙊𝙇𝘼 😸', `Hola`, '🔊 𝙈𝙀𝙉𝙐 𝘿𝙀 𝘼𝙐𝘿𝙄𝙊𝙎 🔊', `#menuaudios`, '⚡️ 𝙈𝙀𝙉𝙐 𝙉𝙐𝙀𝙑𝙊 ⚡️', `#menu`, m, false, { contextInfo: { mentionedJid }})}
 handler.command = /^(menucompleto|menúcompleto|completomemu|completomemú|mcompleto|Menucompleto|Mcompleto|Mnúcompleto)$/i
 module.exports = handler
